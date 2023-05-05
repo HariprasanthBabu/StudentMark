@@ -43,7 +43,7 @@ public class MarkController {
 		return markSer.getAll();
 	}
 
-	@PutMapping(value = "/updateMark")
+	@PutMapping(value = "/updateMarkvalue")
 	public String update(@RequestBody StudentMark id) {
 		return markSer.update(id);
 	}
